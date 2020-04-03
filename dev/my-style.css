@@ -1,0 +1,27 @@
+.box {
+  border: 10px solid red;
+}
+
+div {
+  border: 20px solid red;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: #1a00e6;
+  color: black;
+}
+
+.my-div {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.my-div:hover {
+  color: green;
+}
+/*# sourceMappingURL=my-style.css.map */

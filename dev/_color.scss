@@ -1,0 +1,8 @@
+a{
+    color: mix(red, blue);
+
+    &:hover{
+        color: mix(red, blue, 10%);
+        color: darken(red, 60%);
+    }
+}
