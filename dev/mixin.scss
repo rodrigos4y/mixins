@@ -4,9 +4,14 @@
     background-color: white;
     border: $border-width solid red;
 }
+@mixin padding($values...)
+{
+    padding: $values;
+}
 
 .my-box
 {
     font-size: 18px;
     @include error-box();
+    @include padding(50px 20px 30px 40px);
 }
