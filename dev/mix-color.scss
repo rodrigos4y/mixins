@@ -1,0 +1,5 @@
+$color-list : red green blue;
+
+.mix-color{
+    color: mix(nth($color-list, 1), nth($color-list, 3));
+}
