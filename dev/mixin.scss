@@ -1,0 +1,12 @@
+@mixin error-box($border-width: 10px)
+{
+    color: red;
+    background-color: white;
+    border: $border-width solid red;
+}
+
+.my-box
+{
+    font-size: 18px;
+    @include error-box();
+}
