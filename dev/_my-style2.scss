@@ -1,0 +1,13 @@
+$my-var : red;
+
+.box
+{
+    $my-var2 : 20px !global; //variável global
+    border: 10px solid $my-var;
+}
+
+div
+{
+    border: $my-var2 solid $my-var;
+}
+

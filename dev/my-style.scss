@@ -1,0 +1,14 @@
+@import "my-style2";
+@import "color";
+
+.my-div{
+    color: red;
+    margin: {
+        top: 5px;
+        bottom: 10px;
+    }
+
+    &:hover{
+        color: green;
+    }
+}
