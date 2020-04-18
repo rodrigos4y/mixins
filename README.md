@@ -4,6 +4,9 @@
 This repository is about to make available a few mixins to help others Frontend developers.
 If you have an idea of Sass mixin, let me know.
 
+#### Mixins
+- [Theme Color](https://github.com/rodrigos4y/mixins/tree/master/theme-color) -> This mixin is for you who wants create a theme color palette.
+
 ## Versioning
 To keep better organization of releases we follow the [Semantic Versioning 2.0.0](https://semver.org/) guidelines.
 
