@@ -1,0 +1,5 @@
+// This mixin create a border radius with 1, 2, 3 or 4 parameters
+@mixin border-radius($radius...)
+{
+    border-radius: $radius;
+}

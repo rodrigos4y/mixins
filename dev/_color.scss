@@ -1,3 +1,30 @@
+$seasons: autumm;
+$my-colors: 'red', 'green', 'blue';
+
+@if $seasons == 'autumm'
+{
+    .autumm
+    {
+        background-color : mix(red, yellow);
+    }
+}
+
+@each $color in $my-colors {
+    .btn-#{$color}{
+        background-color: $color;
+    }
+    
+}
+
+@for $i from 1 through 3 
+{
+    .class-#{$i}
+    {
+        color: red;
+    }
+}
+
+
 a{
     color: mix(red, blue);
 

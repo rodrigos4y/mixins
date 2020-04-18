@@ -1,0 +1,30 @@
+.bg-2 {
+  background: #003333;
+}
+
+.bg-3 {
+  background: #004d4d;
+}
+
+.bg-4 {
+  background: #006666;
+}
+
+.bg-5 {
+  background: teal;
+}
+
+.bg-6 {
+  background: #009999;
+}
+
+.bg-7 {
+  background: #00b3b3;
+}
+
+tr td {
+  width: 100px;
+  height: 100px;
+  color: white;
+  padding: 50px;
+}
