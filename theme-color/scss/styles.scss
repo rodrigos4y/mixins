@@ -1,0 +1,20 @@
+@import 'mixins';
+
+
+// This mixin is about create a theme color for your application
+// just put the number you want to range colors, the hue code color and if you want, saturation
+// You can find hue code for choose color here: https://htmlcolorcodes.com/color-chart/
+@include theme-color(7, 180);
+
+
+
+
+
+// This is not so important for the solution but it matters
+tr td
+{
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 50px;
+}

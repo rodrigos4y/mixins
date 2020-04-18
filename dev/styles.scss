@@ -1,0 +1,6 @@
+@import "mixins";
+
+.example-border-radius
+{
+    @include border-radius(10px 5px);
+}
